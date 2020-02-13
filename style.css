@@ -6,12 +6,17 @@
   margin-bottom: 20px;
 }
 
+img {
+  padding: 60px;
+}
+
 .sconto {
   width: 40px;
   height: 20px;
   position: absolute;
   top: 0;
   right: 0;
+  text-align: center;
 }
 
 .vecchio {
@@ -20,4 +25,13 @@
 
 .nuovo {
   background-color: red;
+}
+
+.preferiti {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  color: red;
+  font-size: 40px;
 }
