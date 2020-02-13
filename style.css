@@ -34,4 +34,11 @@ img {
   transform: translate(-50%);
   color: red;
   font-size: 40px;
+  display: none;
+}
+
+/* Funzione che mostra il cuoricino quando ci passiamo sopra con il mouse*/
+
+.prodotto:hover .preferiti{
+  display: block;
 }
