@@ -3,4 +3,21 @@
   width: 33%;
   background-color: #EDEDED;
   position: relative;
+  margin-bottom: 20px;
+}
+
+.sconto {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.vecchio {
+  background-color: green;
+}
+
+.nuovo {
+  background-color: red;
 }
